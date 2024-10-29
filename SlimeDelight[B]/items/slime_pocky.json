@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 2,
+        "saturation_modifier": 0.375
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "slime_pocky"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.2,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:slime_pocky",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

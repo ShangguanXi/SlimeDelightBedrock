@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "grass_block_cake"
+        }
+      },
+      "minecraft:block_placer": {
+        "block": "slime_delight:grass_block_cake"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmersdelight:can_cut.tag.farmersdelight:is_knife"
+        ]
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:grass_block_cake",
+      "menu_category": {
+       "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

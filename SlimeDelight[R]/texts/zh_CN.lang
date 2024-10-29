@@ -1,0 +1,34 @@
+
+  tile.slime_delight:slime_pocky_box.name=百奇饼干盒  
+  item.slime_delight:slime_pocky_box=百奇饼干盒
+  tile.slime_delight:nether_brick_large_bowl.name=下界砖大碗
+  item.slime_delight:nether_brick_large_bowl=下界砖大碗
+  tile.slime_delight:reversed_porcelain_plate.name=逆转瓷盘
+  item.slime_delight:reversed_porcelain_plate=逆转瓷盘
+  item.slime_delight:gelatin_candy=凝胶糖果
+  tile.slime_delight:nether_stew.name=下界炖
+  item.slime_delight:nether_stew=下界炖
+  item.slime_delight:slime_pudding=史莱姆布丁
+  item.slime_delight:burnt_fish=糊焦鱼
+  tile.slime_delight:porcelain_plate.name=瓷盘
+  item.slime_delight:porcelain_plate=瓷盘
+  item.slime_delight:slice_of_grass_block_cake=草方块蛋糕切片
+  item.slime_delight:slime_rice=粘液饭
+  item.slime_delight:magma_cream_rice=岩浆膏饭
+  item.slime_delight:burnt_potato=糊焦马铃薯
+  item.slime_delight:bowl_of_goo=一碗黏糊
+  item.slime_delight:bowl_of_nether_stew=碗装下界炖
+  item.slime_delight:slime_pocky=粘液百奇饼干
+  item.slime_delight:nether_brick_bowl=下界砖碗
+  item.slime_delight:golden_slime_ball=金粘液球
+  tile.slime_delight:grass_block_cake.name=草方块蛋糕
+  item.slime_delight:grass_block_cake=草方块蛋糕
+  tile.slime_delight:lava_large_bowl.name=一大碗熔岩
+  item.slime_delight:lava_large_bowl=一大碗熔岩
+  item.slime_delight:magma_cream_pudding=岩浆膏布丁
+  slime_delight.blockfood.nether_brick_bowl=你需要一个下界砖碗来食用！
+  
+  pack.name=粘液乐事
+  pack.description=黏糊糊的美味食物！
+
+

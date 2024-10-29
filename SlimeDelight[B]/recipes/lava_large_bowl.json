@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "slime_delight:lava_large_bowl"
+        },
+        "key": {
+            "a": "slime_delight:nether_brick_large_bowl",
+            "b": "minecraft:lava_bucket"
+        },
+        "pattern": [
+            "ab"
+        ],
+        "result": [
+            {
+                "count": 1,
+                "item": "slime_delight:lava_large_bowl"
+            },
+            "minecraft:bucket"
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

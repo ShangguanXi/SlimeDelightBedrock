@@ -1,0 +1,66 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "slime_rice": {
+            "textures": "textures/items/slime_rice"
+        },
+        "slime_pudding": {
+            "textures": "textures/items/slime_pudding"
+        },
+        "slime_pocky_box": {
+            "textures": "textures/items/slime_pocky_box"
+        },
+        "slime_pocky": {
+            "textures": "textures/items/slime_pocky"
+        },
+        "slice_of_grass_block_cake": {
+            "textures": "textures/items/slice_of_grass_block_cake"
+        },
+        "reversed_porcelain_plate": {
+            "textures": "textures/items/reversed_porcelain_plate"
+        },
+        "porcelain_plate": {
+            "textures": "textures/items/porcelain_plate"
+        },
+        "nether_stew": {
+            "textures": "textures/items/nether_stew"
+        },
+        "nether_brick_large_bowl": {
+            "textures": "textures/items/nether_brick_large_bowl"
+        },
+        "nether_brick_bowl": {
+            "textures": "textures/items/nether_brick_bowl"
+        },
+        "magma_cream_rice": {
+            "textures": "textures/items/magma_cream_rice"
+        },
+        "magma_cream_pudding": {
+            "textures": "textures/items/magma_cream_pudding"
+        },
+        "lava_large_bowl": {
+            "textures": "textures/items/lava_large_bowl"
+        },
+        "grass_block_cake": {
+            "textures": "textures/items/grass_block_cake"
+        },
+        "golden_slime_ball": {
+            "textures": "textures/items/golden_slime_ball"
+        },
+        "gelatin_candy": {
+            "textures": "textures/items/gelatin_candy"
+        },
+        "burnt_potato": {
+            "textures": "textures/items/burnt_potato"
+        },
+        "burnt_fish": {
+            "textures": "textures/items/burnt_fish"
+        },
+        "bowl_of_nether_stew": {
+            "textures": "textures/items/bowl_of_nether_stew"
+        },
+        "bowl_of_goo": {
+            "textures": "textures/items/bowl_of_goo"
+        }
+    },
+    "texture_name": "atlas.items"
+}

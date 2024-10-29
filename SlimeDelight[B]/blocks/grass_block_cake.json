@@ -1,0 +1,186 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "slime_delight:grass_block_cake",
+            "states": {
+                "slime_delight:food_block_stage": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_1",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grass_block_cake_side"
+                        },
+                        "up": {
+                            "texture": "grass_block_cake_top"
+                        },
+                        "down": {
+                            "texture": "grass_block_cake_bottom"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') > 1",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_1",
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "grass_block_cake_side"
+                        },
+                        "up": {
+                            "texture": "grass_block_cake_top"
+                        },
+                        "down": {
+                            "texture": "grass_block_cake_bottom"
+                        },
+                        "north": {
+                            "texture": "grass_block_cake_bottom"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_2"
+                }
+            },
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_3"
+                }
+            },
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') == 4",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_4"
+                }
+            },
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') == 5",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_5"
+                }
+            },
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') == 6",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_6"
+                }
+            },
+            {
+                "condition": "query.block_state('slime_delight:food_block_stage') == 7",
+                "components": {
+                    "minecraft:geometry": "geometry.grass_block_cake_7"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.25
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.25
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7,
+                    0.0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    12,
+                    14
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7,
+                    0.0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    12,
+                    14
+                ]
+            },
+            "minecraft:custom_components": [
+                "slime_delight:grass_block_cake"
+            ]
+        }
+    }
+}

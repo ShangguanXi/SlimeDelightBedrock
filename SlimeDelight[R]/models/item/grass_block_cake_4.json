@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "slime_delight:item/grass_block_cake"
+  },
+  "render_type": "translucent"
+}

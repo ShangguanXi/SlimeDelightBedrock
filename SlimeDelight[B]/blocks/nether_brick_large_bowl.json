@@ -1,0 +1,50 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "slime_delight:nether_brick_large_bowl"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.nether_brick_large_bowl",
+            "minecraft:custom_components": [
+                "slime_delight:nether_brick_large_bowl"
+            ],
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.25
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.25
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "nether_brick_large_bowl"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7,
+                    0.0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    10,
+                    14
+                ]
+            },
+            "minecraft:selection_box": {
+               "origin": [
+                    -7,
+                    0.0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    10,
+                    14
+                ]
+            }
+        }
+    }
+}

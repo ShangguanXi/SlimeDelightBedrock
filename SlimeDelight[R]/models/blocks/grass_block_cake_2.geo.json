@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.grass_block_cake_2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-7, 0, -5],
+							"size": [14, 12, 12],
+							"uv": {
+								"north": {"uv": [1, 4], "uv_size": [14, 12]},
+								"east": {"uv": [1, 4], "uv_size": [12, 12]},
+								"south": {"uv": [1, 4], "uv_size": [14, 12]},
+								"west": {"uv": [3, 4], "uv_size": [12, 12]},
+								"up": {"uv": [15, 15], "uv_size": [-14, -12]},
+								"down": {"uv": [15, 15], "uv_size": [-14, -14]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

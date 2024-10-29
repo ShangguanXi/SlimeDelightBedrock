@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "slime_delight:golden_slime_ball"
+        },
+        "key": {
+            "a": {
+                "item": "minecraft:gold_ingot"
+            },
+            "b": {
+                "item": "minecraft:slime_ball"
+            }
+        },
+        "pattern": [
+            "aaa",
+            "aba",
+            "aaa"
+        ],
+        "result": {
+            "count": 1,
+            "item": "slime_delight:golden_slime_ball"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

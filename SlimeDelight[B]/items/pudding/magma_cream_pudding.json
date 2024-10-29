@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 6,
+        "saturation_modifier":9.6,
+        "using_converts_to": "slime_delight:porcelain_plate"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "magma_cream_pudding"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:magma_cream_pudding",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

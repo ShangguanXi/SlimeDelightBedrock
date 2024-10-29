@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "slime_delight:nether_brick_bowl"
+        },
+        "key": {
+            "a": {
+                "item": "minecraft:nether_brick"
+            }
+        },
+        "pattern": [
+            "a a",
+            " a "
+        ],
+        "result": {
+            "count": 4,
+            "item": "slime_delight:nether_brick_bowl"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

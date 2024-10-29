@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": false,
+        "nutrition": 6,
+        "saturation_modifier": 0.75,
+        "using_converts_to": "minecraft:bowl"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "slime_rice"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:slime_rice",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

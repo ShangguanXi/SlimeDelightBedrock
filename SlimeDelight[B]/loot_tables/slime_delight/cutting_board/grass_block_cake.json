@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "slime_delight:slice_of_grass_block_cake",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 7
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "slime_pocky_box_texture": {
+            "textures": "textures/blocks/slime_pocky_box_texture"
+        },
+        "reversed_porcelain_plate_destory": {
+            "textures": "textures/blocks/reversed_porcelain_plate_destory"
+        },
+        "porcelain_plate_destory": {
+            "textures": "textures/blocks/porcelain_plate_destory"
+        },
+        "porcelain_plate": {
+            "textures": "textures/blocks/porcelain_plate"
+        },
+        "nether_brick_large_bowl_destory": {
+            "textures": "textures/blocks/nether_brick_large_bowl_destory"
+        },
+        "nether_brick_large_bowl": {
+            "textures": "textures/blocks/nether_brick_large_bowl"
+        },
+        "grass_block_cake_top": {
+            "textures": "textures/blocks/grass_block_cake_top"
+        },
+        "grass_block_cake_side": {
+            "textures": "textures/blocks/grass_block_cake_side"
+        },
+        "grass_block_cake_inner": {
+            "textures": "textures/blocks/grass_block_cake_inner"
+        },
+        "grass_block_cake_bottom": {
+            "textures": "textures/blocks/grass_block_cake_bottom"
+        }
+    },
+    "texture_name": "atlas.terrain"
+}

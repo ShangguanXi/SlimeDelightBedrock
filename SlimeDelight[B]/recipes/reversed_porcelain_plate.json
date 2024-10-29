@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "slime_delight:reversed_porcelain_plate"
+        },
+        "key": {
+            "a": {
+                "item": "slime_delight:porcelain_plate"
+            }
+        },
+        "pattern": [
+            "a"
+        ],
+        "result": {
+            "count": 1,
+            "item": "slime_delight:reversed_porcelain_plate"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

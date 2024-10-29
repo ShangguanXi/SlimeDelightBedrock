@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 6,
+        "saturation_modifier": 1
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "golden_slime_ball"
+        }
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:golden_slime_ball",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "reversed_porcelain_plate"
+        }
+      },
+      "minecraft:block_placer": {
+        "block": "slime_delight:reversed_porcelain_plate"
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:reversed_porcelain_plate",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.slime_delight"
+      }
+    }
+  }
+}

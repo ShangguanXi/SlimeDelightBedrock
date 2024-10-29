@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lava_large_bowl"
+        }
+      },
+      "minecraft:block_placer": {
+        "block": "slime_delight:lava_large_bowl"
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:lava_large_bowl",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

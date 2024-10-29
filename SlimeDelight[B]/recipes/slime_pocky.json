@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "slime_delight:slime_pocky"
+        },
+        "key": {
+            "a": {
+                "item": "minecraft:slime_ball"
+            },
+            "b": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "pattern": [
+            "a",
+            "b"
+        ],
+        "result": {
+            "count": 3,
+            "item": "slime_delight:slime_pocky"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "slime_delight:item/porcelain_plate"
+  },
+  "render_type": "translucent"
+}

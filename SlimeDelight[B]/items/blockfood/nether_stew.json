@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "nether_stew"
+        }
+      },
+      "minecraft:block_placer": {
+        "block": "slime_delight:nether_stew"
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:nether_stew",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

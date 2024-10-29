@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "slime_pocky_box"
+        }
+      },
+      "minecraft:block_placer": {
+        "block": "slime_delight:slime_pocky_box"
+      }
+    },
+    "description": {
+      "identifier": "slime_delight:slime_pocky_box",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "slime_delight:burnt_fish"
+        },
+        "tags": [
+            "blast_furnace"
+        ],
+        "input": {
+            "tag": "minecraft:is_fish"
+        },
+        "output": {
+            "item": "slime_delight:burnt_fish"
+        }
+    }
+}
